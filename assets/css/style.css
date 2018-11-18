@@ -116,8 +116,6 @@ article .image {
 }
 
 .portfolio-links {
-	height: 206px;
-	width: 274px;
 	display: flex;
 	justify-content: center;
 }
