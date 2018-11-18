@@ -73,7 +73,7 @@ article {
 	background-color: #fff;
 	border: 1px solid #ccc;
 	margin-top: 130px;
-	margin-bottom: 350px;
+	margin-bottom: 175px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -228,7 +228,16 @@ span {
 
 @media only screen and (max-width: 768px) {
 	.site-container {
-		width: 710px;
+		width: 100%;
+	}
+
+	header .site-container {
+		margin-left: 20px;
+	}
+
+	article {
+		margin-left: 20px;
+		margin-right: 20px;
 	}
 
 	.portfolio-links {
@@ -250,6 +259,7 @@ span {
 	header .site-container {
 		display: block;
 		text-align: center;
+		margin-left: 0;
 	}
 
 	nav {
@@ -257,7 +267,7 @@ span {
 	}
 
 	article {
-		margin: 20px 20px 182px	20px;
+		margin: 20px;
 	}
 
 	article .image {
@@ -268,4 +278,10 @@ span {
 	#portfolio-content {
 		grid-template-columns: 1fr;
 		grid-gap: 40px 0;
+	}
+
+	footer {
+		position: static;
+		bottom: 0;
+	}
 }
