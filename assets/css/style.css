@@ -191,10 +191,13 @@ input[type="submit"] {
 	margin-top: 20px;
 	font-size: 16px;
 	font-weight: bold;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+	transition: .5s box-shadow;
 }
 
 input[type="submit"]:hover {
 	background-color: #377F7C;
+	box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
 }
 
 /* Footer */
